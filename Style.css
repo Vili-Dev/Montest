@@ -89,6 +89,74 @@ a.item:hover {
     width: 150px;
 }
 
+.à-propos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 100px;
+}
+
+
+.item-à-propos{
+    display: flex;
+    padding: 10px;
+    border: 1px solid rgb(245, 245, 245);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(238, 233, 233);
+    border-color: #ffffff;
+    margin-top: -10px;
+box-shadow: rgba(213, 116, 116, 0.459) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.562) 0px 18px 36px -18px inset;
+background: radial-gradient(circle, rgb(48, 15, 15) 0%, rgb(0, 0, 0) 100%);
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}  
+
+a.item-à-propos {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: #0f0101;
+    padding: 3px 15px;
+}
+
+a.item-à-propos:hover {
+    background: linear-gradient(135deg, #3b2626, #2f0707);
+    box-shadow: 0 0 10px #631c1c, 0 0 20px #6b1717 inset;
+}
+
+.item-à-propos h3,
+.item-à-propos h4,
+.item-à-propos h5 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    /* Ajuste la valeur selon l'espacement souhaité */
+}
+
+.item-à-propos h3 {
+    font-size: 24px;
+}
+
+.à-propos img{
+    height: 150px;
+    width: 150px;
+}
+
 /* Correction ici : centrer les liens dans le nav */
 nav {
     display: flex;
