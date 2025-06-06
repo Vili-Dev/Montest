@@ -373,3 +373,9 @@ a.item-à-propos:hover {
 
 
 /* page artistes */
+
+
+.img-artistes img {
+  height: 268px;
+  width: 100%;
+}
