@@ -38,8 +38,9 @@
 
 ---
 
-## 📂 Structure du dépôt
+## 📂 Arborescence du projet
 
+```bash
 MONTEST/
 ├── artistes/
 │   ├── élisa.html
