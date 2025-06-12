@@ -446,17 +446,16 @@ p {
         margin: 0px 0px 10px 0px;
     }
 
-}
-
-
-
-#item-à-propos1{
+    #item-à-propos1{
     margin-bottom: -70px;
     margin-top: -2px;
-}
+    }
 
-#item-à-propos2{
+    #item-à-propos2{
     margin-top: -75px;
+    }
+
+
 }
 
 
